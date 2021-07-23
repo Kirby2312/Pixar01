@@ -1,0 +1,123 @@
+h1{
+	color: black;
+	font-weight: bolder;
+	font-size: 450%;
+	text-align: left;
+	transform: translate(50%, 170%);
+
+}
+
+h2{
+	color: gray;
+	font-size: 250%;
+	padding: 20px;
+}
+
+
+#banner{
+	width: 100%;
+	position: relative;
+}
+
+.cards{
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 30px;
+}
+
+#topbanner>a{
+	width: 20%;
+	transform: translate(5%, -70%);
+}
+
+.icon{
+	width: 50px;
+}
+
+body{
+	font-family: 'Zen Loop', cursive;
+	text-align: center;
+	background-color: rgb(176, 232, 201);
+}
+
+li{
+	list-style-type: none;
+	line-height: 40px;
+	font-size:150%;
+
+}
+
+p{
+	color: black;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topBanner{
+	display: flex;
+}
+
+#topBanner>a, h1, #topBanner>h2, #topBanner>div{
+	position: absolute;
+}
+
+#topBanner>h2{
+	background-color: white;
+	padding: 10px;
+	border-radius: 15px;
+	transform: translate(60%, 1100%);
+}
+
+#topBanner>div{
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+	transform: translate(1100%, 60%);
+}
+
+#image{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#description{
+	display: flex;
+	justify-content: space-around;
+	text-align: left;
+}
+
+/*Media Querry -- For website responsiveness*/
+@media screen and (max-width: 900px){
+	body{
+		background-color: gray;
+	}
+
+	h1{
+		top: 5%;
+		font-size: 200%;
+	}
+
+	h2{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px){
+	body{
+		background-color: lightsalmon;
+	}
+
+	h1{
+		display: none;
+	}
+}
